@@ -1,0 +1,94 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+.netflix-bg{
+    background-image: url(https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png);
+    min-width: 1000px;
+    min-height: 700px;
+}
+.name-logo{
+    color: rgba(255, 0, 0, 0.8);
+    font-family: 'Bebas Neue' , sans-serif;
+    font-size: 3rem;
+    padding: 20px 0;
+    
+}
+.login-bg{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    height: 450px;
+    z-index: 2;
+}
+.label-signin{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+.username{
+    position: absolute;
+    height: 30px;
+    width: 250px;
+    top: 70px;
+    left: 50px;
+    background-color: rgb(63, 63, 63);
+    color: black;
+}
+.password{
+    position: absolute;
+    height: 30px;
+    width: 250px;
+    top: 110px;
+    left: 50px;
+    background-color: rgb(63, 63, 63);
+    color: black;
+}
+.button-signin{
+    position: absolute;
+    background-color:red;
+    height: 30px;
+    width: 250px;
+    top: 150px;
+    left: 50px;
+    color: white;
+}
+
+.remember-me{
+    position: absolute;
+    top: 200px;
+    left: 45px;
+}
+.remember-me-label{
+    position: absolute;
+    top: 200px;
+    left: 65px;
+}
+
+.needhelp{
+    position: absolute;
+    top: 200px;
+    left: 230px;
+}
+.sign-up{
+    position: absolute;
+    top: 250px;
+    left: 45px;
+}
+
+.paragraph {
+    position: absolute;
+    top: 290px;
+    left: 45px;
+    right: 50px;
+}
